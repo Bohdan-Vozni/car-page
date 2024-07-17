@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarWorld</title>
+    <link rel="stylesheet" href="styles/car-page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="name">CarWorld</div>
+        <div class="bar">
+            <div class="bar-element">Каталог</div>
+            <div class="bar-element">Гарячі пропозиції</div>
+            <div class="bar-element">Відгуки</div>
+            <div class="bar-element">Контакти</div>
+        </div>
+    </header>
+    <div class="all-info">
+    <div class="images">
+        <img class="image-main" id="main-image" src="pictures/car-main.jpg" onmouseover="showArrows(true)" onmouseout="showArrows(false)">
+        <div class="image-subs">
+            <img class="image-sub1 image-sub" src="pictures/car-sub1.jpg" onclick="changeMainImage(this)">
+            <img class="image-sub2 image-sub" src="pictures/car-sub2.jpg" onclick="changeMainImage(this)">
+            <img class="image-sub3 image-sub" src="pictures/car-sub3.jpg" onclick="changeMainImage(this)">
+            <img class="image-sub4 image-sub" src="pictures/car-sub4.jpg" onclick="changeMainImage(this)">
+            <img class="image-sub5 image-sub" src="pictures/car-sub5.jpg" onclick="changeMainImage(this)">
+        </div>
+    </div>
+    <div class="info">
+        <div class="car-name">CHEVROLET CRUZE HATCHBACK</div>
+        <div class="price">₴2 000,00 грн</div>
+        <div class="description"><p class="highlighted-text">Опис</p>
+            Тип автомобіля - Хетчбек<br> 
+            Коробка передач - Aвтоматична<br>
+            Привід - Передній<br>
+            Об'єм двигуна - 1,4 л (153 к.с.)<br>
+            Кількість місць - 5 місць<br>
+            Тип палива - Бензин<br>
+            Контроль температури - Клімат-контроль<br>
+            Витрати палива - 6.9 л/на 100 км</div>
+        <button class="buy">Орендувати</button>
+    </div>
+</div>
+<div class="application">
+    <div class="rent-info">
+        <img class="rent-image" src="">
+        <div class="rent-car-name"></div>
+        <div class="rent-count"></div>
+        <div class="rent-price"></div>
+        <img class="rent-bascet" src="">
+    </div>
+</div>
+<script src="javascript/car-page.js"></script>
+</body>
+</html>
