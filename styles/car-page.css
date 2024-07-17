@@ -1,0 +1,99 @@
+body {
+    font-family: Roboto Condensed;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+.name {
+    font-size: 30px;
+    font-weight: 700;
+    width: 30%;
+}
+.bar {
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+}
+.bar div {
+    margin-left: 40px;
+    font-size: 18px;
+}
+.bar-element {
+    margin-left: 20px;
+}
+.all-info {
+    margin-left: 100px;
+    margin-top: 100px;
+    display: flex;
+    padding: 20px;
+}
+.images {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+.car-name, .price, .description {
+    margin-bottom: 50px;
+}
+.car-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+.price {
+    font-size: 18px;
+    font-weight: bold;
+}
+.buy {
+    align-self: flex-start;
+    padding: 10px 20px;
+}
+.images {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.image-main {
+    border-radius: 15px;
+    max-width: 80%;
+    max-height: 80%;
+    width: auto;
+    height: auto;
+    margin-bottom: 100px;
+    position: relative;
+}
+.image-sub {
+    cursor: pointer;
+    border-radius: 15px;
+    max-width: 40%;
+    max-height: 40%;
+    width: auto;
+    height: auto;
+    margin-right: 20px;
+}
+.image-subs {
+    display: flex;
+}
+.highlighted-text {
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+.buy {
+    color: white;
+    background-color: orange;
+    border: none;
+    padding: 12px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 15px;
+}
